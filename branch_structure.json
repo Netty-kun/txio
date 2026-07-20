@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-119-csp-connect-src",
+    "fix/issue-120-dependabot-coverage",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-119-csp-connect-src": "main",
+    "fix/issue-120-dependabot-coverage": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-119-csp-connect-src",
+    "fix/issue-120-dependabot-coverage",
+    "origin"
+  ]
+}
