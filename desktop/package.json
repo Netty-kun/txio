@@ -8,8 +8,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "electron .",
-    "build": "electron-builder"
+    "start": "node init && electron .",
+    "build": "node init && electron-builder"
   },
   "dependencies": {},
   "devDependencies": {
@@ -46,18 +46,26 @@
       "!**/node_modules/*/{README.md,readme.md,README}",
       "!**/node_modules/*/{test,tests,__tests__}"
     ],
-    "electronLanguages": ["en"],
+    "electronLanguages": [
+      "en"
+    ],
     "linux": {
-      "target": ["AppImage"],
+      "target": [
+        "AppImage"
+      ],
       "icon": "src/assets/logo-B-VeRwKK.png",
       "category": "Development"
     },
     "win": {
-      "target": ["nsis"],
+      "target": [
+        "nsis"
+      ],
       "icon": "src/assets/logo-B-VeRwKK.png"
     },
     "mac": {
-      "target": ["dmg"],
+      "target": [
+        "dmg"
+      ],
       "icon": "src/assets/logo-B-VeRwKK.png"
     }
   }

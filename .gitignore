@@ -10,12 +10,9 @@ out/
 bun.lock
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # IDEs
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -33,3 +30,4 @@ yarn-error.log*
 # Rust
 **/*.rs.bk
 # Cargo.lock is intentionally committed (the workspace ships binaries)
+config.bat
