@@ -33,3 +33,6 @@ yarn-error.log*
 # Rust
 **/*.rs.bk
 # Cargo.lock is intentionally committed (the workspace ships binaries)
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
